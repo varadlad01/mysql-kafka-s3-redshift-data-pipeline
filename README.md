@@ -1,3 +1,6 @@
+Summary:
+This project revolves around constructing a containerized data capture pipeline, orchestrating the seamless transfer of information from a MySQL database to Amazon Redshift for visualization purposes. Docker containers are employed for their ability to ensure consistency and portability across diverse environments. A Change Data Capture (CDC) pipeline is used to tracking changes made to data within a database system over time. The pipeline utilizes Kafka as a pivotal intermediary for real-time data streaming, facilitating ingestion of MySQL data into Redshift. Amazon S3 serving as an intermediate repository for raw data prior to any transformation. Redshift plays a crucial role in enabling efficient processing of analytics, empowering users to extract actionable insights from the data.
+
 Export data from mysql-database to REDSHIFT using kafka
 
 ![Data flow diagram](./diagrams/dataflow-diagram.png)
