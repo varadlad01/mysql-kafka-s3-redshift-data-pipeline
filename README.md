@@ -6,7 +6,7 @@ Problem Statement:
 We need to build an ETL pipeline to dump mysql data base record to redshift using kafka
 ![MY SQL DATABASE](./diagrams/mysql-oltp-database.png)
 
-RedShift Data warehouse
+RedShift Data warehouse (Transfored data in fact and dimentional tables)
 ![Red Shift](./diagrams/redshift-olap-diagram.png)
 
 Approach:
