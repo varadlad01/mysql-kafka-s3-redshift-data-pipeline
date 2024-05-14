@@ -16,3 +16,8 @@ Approach:
 
 2.Read data from s3 bucket and dump in REDSHIFT
 ![s3-redshift](./diagrams/s3-redshift.png)
+
+Solution:
+
+1.Read data from mysql and  send to kafka topic and from kafka topic we will dump to s3 bucket
+![mysql-kafka-s3](./diagrams/snaps/mysql_tables.png)
