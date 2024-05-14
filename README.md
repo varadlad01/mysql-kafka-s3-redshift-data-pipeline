@@ -22,7 +22,7 @@ Solution:
 1. Docker Container
 ![s3-redshift](./Snaps/docker_container.png)
 
-2. Available SQL tables
+2. Created SQL tables using database-dump/mysqlsampledatabase.sql file
 ![s3-redshift](./Snaps/mysql_tables.png)
 
 3. Sample MySQL employee table data
@@ -31,7 +31,7 @@ Solution:
 4. Sample Kafka Topics
 ![s3-redshift](./Snaps/sample_kafka_topics.png)
 
-5. Sample data from customers topic
+5. Sample data from customers kafka topic
 ![s3-redshift](./Snaps/sample_kafka_data.png)
 
 6. S3 Objects
